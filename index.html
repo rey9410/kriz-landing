@@ -53,7 +53,7 @@
         }
     </script>
     <style>
-        body { background-color: #000000; overflow-x: hidden; font-family: 'Be Vietnam Pro', sans-serif; scroll-behavior: smooth; }
+        html, body { max-width: 100%; overflow-x: hidden; } body { background-color: #000000; font-family: 'Be Vietnam Pro', sans-serif; scroll-behavior: smooth; }
         .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; vertical-align: middle; }
         .font-display-condensed { font-family: 'Anybody', sans-serif; font-stretch: condensed; font-weight: 900; letter-spacing: -0.04em; }
         .glass-card { background: rgba(18, 18, 20, 0.4); backdrop-filter: blur(40px); -webkit-backdrop-filter: blur(40px); border: 1px solid rgba(255, 255, 255, 0.08); transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1); }
@@ -93,9 +93,9 @@
 <body class="bg-background text-on-surface selection:bg-neon-pink selection:text-white">
     <div id="hero-gradient" class="fixed inset-0 pointer-events-none z-10 opacity-40 transition-opacity duration-500"
          style="background: radial-gradient(circle 250px at -100px -100px, rgba(157,49,255,0.18), transparent), radial-gradient(circle 250px at -100px -100px, rgba(216,239,0,0.12), transparent);"></div>
-    <div class="absolute top-[20vh] left-[-200px] w-[500px] h-[500px] bg-neon-purple bg-gradient-blob"></div>
-    <div class="absolute top-[120vh] right-[-200px] w-[600px] h-[600px] bg-neon-pink bg-gradient-blob"></div>
-    <div class="absolute top-[280vh] left-[-300px] w-[550px] h-[550px] bg-lime-dim bg-gradient-blob"></div>
+    <div class="fixed top-[20vh] left-[-200px] w-[500px] h-[500px] bg-neon-purple bg-gradient-blob"></div>
+    <div class="fixed top-[120vh] right-[-200px] w-[600px] h-[600px] bg-neon-pink bg-gradient-blob"></div>
+    <div class="fixed top-[280vh] left-[-300px] w-[550px] h-[550px] bg-lime-dim bg-gradient-blob"></div>
 
     <nav class="bg-black/75 backdrop-blur-xl top-0 sticky z-50 border-b border-white/10 shadow-[0_0_35px_rgba(157,49,255,0.12)] h-20">
         <div class="flex justify-between items-center w-full px-container-margin max-w-7xl mx-auto h-full">
